@@ -1,0 +1,56 @@
+html{scroll-behavior: smooth;}
+
+body{
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  font-family:sans-serif;
+}
+
+section{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section:nth-child(even){
+  background: bisque;
+}
+
+section:before{
+  content: attr(data-text);
+  color: #262626;
+  font-size: 6em;
+  font-weight: bold;
+}
+
+ul{
+   width: 100%;
+   height: 10vh;
+   padding: 0;
+   margin: 0;
+   display: flex;
+   justify-content: space-around;
+   position: fixed;
+   align-items: center;
+   background: burlywood;
+  }
+
+  ul li{
+   list-style: none;
+
+  }
+
+  ul li a{
+  padding: 5px;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  }
+
+  ul li a:hover{
+    color: white;
+  }
