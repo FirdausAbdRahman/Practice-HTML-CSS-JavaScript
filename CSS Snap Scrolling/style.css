@@ -1,0 +1,17 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+  background: burlywood;
+  scroll-snap-type: y mandatory; /*less sticky: proximity */
+  overflow-y: scroll;
+}
+
+section{
+  padding: 7em;
+  height: calc(100vh - 14em);
+  scroll-snap-align: start;
+}
+
+section:nth-child(even){
+  background: bisque;
+}
