@@ -1,0 +1,50 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.box{
+  position: absolute;
+  t0p: 40px;
+  right: 40px;
+  padding: 5px;
+  background: black;
+  cursor: pointer;
+}
+
+.box a{
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  margin: 5px;
+}
+
+#white{
+background: white;
+}
+
+#red{
+background: red;
+}
+
+#blue{
+background: blue;
+}
+
+#yellow{
+background: yellow;
+}
+
+#green{
+background: green;
+}
+
+#purple{
+background: purple;
+}
+
+#chocolate{
+background: chocolate;
+}
