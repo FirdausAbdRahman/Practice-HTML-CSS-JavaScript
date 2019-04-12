@@ -1,4 +1,4 @@
-# Practice-HTML-CSS
+# Practice-HTML-CSS-JavaScript
 This repo contains compilation of CSS & JavaScript tricks that I've learned.
 
 Credits: 
