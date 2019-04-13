@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  background: #000;
+  background: black;
   background-image: radial-gradient(grey .5px, transparent 1px);
   background-size: 100px 100px;
   font-family: sans-serif;
@@ -39,7 +39,6 @@ h1{
   left: -5px;
   width: 10px;
   height: 10px;
-  background: #ff0;
   border-radius: 50%;
 }
 
