@@ -1,0 +1,53 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #333;
+  font-family: sans-serif;
+}
+
+h1{
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+h1 span{
+  display: inline-flex;
+  color:#a1ff34;
+}
+
+h1 span:nth-child(even){
+  overflow: hidden;
+  transition: ease-in-out 0.5s;
+  color: #fff;
+  letter-spacing: -1em;
+}
+
+h1:hover span:nth-child(even){
+  letter-spacing: 0;
+}
+
+h1:hover span:nth-child(2){
+  transition-delay: 0.5s;
+}
+
+h1:hover span:nth-child(4){
+  transition-delay: 1s;
+}
+
+h1:hover span:nth-child(6){
+  transition-delay: 1.5s;
+}
+
+h1:hover span:nth-child(8){
+  transition-delay: 2s;
+}
+
+h1:hover span:nth-child(10){
+  transition-delay: 2.5s;
+}
